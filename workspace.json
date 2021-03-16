@@ -37,6 +37,12 @@
             "assets": [
               "libs/xxx/*.md"
             ]
+          },
+          "configurations": {
+              "optimization": true,
+              "production": {
+                  "webpackConfig": "libs/xxx/webpack.config.js"
+              }
           }
         }
       }
